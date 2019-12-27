@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Contact Us</title>
+
+    <link rel="stylesheet" href="CSS/contact.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+
+ <!--Jquery file-->
+ <script type="text/javascript" src="Js/jquery-3.4.1.min.js"></script>
+ <link rel="stylesheet" type="text/css" href="Js/alertifyjs/css/alertify.css">
+ <link rel="stylesheet" type="text/css" href="Js/alertifyjs/css/themes/default.css">
+
+ <!--Alertify script-->
+ <script src="Js/alertifyjs/alertify.js"></script>
+
+    <script type="text/javascript">
+        $(document).ready(function() {
+                   alertify.success("Welcome this is the contact form")
+         })
+   
+     </script>
+    
+</head>
+<body>
+
+   
+    <!--<div class="modal_wrap">
+        <div class="message_modal">
+            <h3>There are some mistakes.</h3>
+            <p>Write the name.</p>
+            <p>Insert an email address.</p>
+            <p>Write a message.</p>
+            <span id="btnClose">Close</span>
+        </div>
+    </div>-->
+
+    <section class="form_wrap">
+        <section class="contact_info">
+            <section class="info_title">
+                <span class="fa fa-user-circle"></span>
+                <h2>Contact info</h2>
+            </section>
+                <section class="info_items">
+                    <p><span class="fa fa-envelope"></span> - magno@gmail.com</p>
+                    <p><span class="fa fa-mobile"></span> - (00505)-81583922</p>
+                    <p><span class="fas fa-home"><a href="index.html"> -Close this form</a></span></p>
+                </section>
+        </section>
+        <form action="Connections/send.php" method="POST" class="form_contact">
+            <h2>Send a message</h2>
+            <div class="user_info">
+                <label for="name">Full name *</label>
+                <input type="text" id="name" name="name" required autofocus>
+
+                <label for="phone">phone #</label>
+                <input type="text" id="phone" name="phone">
+
+                
+                <label for="email">Email address *</label>
+                <input type="text" id="email" name="email" required autofocus>
+
+                <label for="message">Please write your message *</label>
+                <textarea id="message" name="message" required autofocus></textarea>
+
+                <input type="submit" value="send message" id="btnSend">
+            </div>
+        </form>
+    </section>
+    <script src="Js/alert.js"></script>
+</body>
+</html>

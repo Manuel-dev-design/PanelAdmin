@@ -1,0 +1,117 @@
+:root {
+    --input-padding-x: 1.5rem;
+    --input-padding-y: .75rem;
+}
+
+.container {
+    background: #ffffff;
+    margin: 146px;
+}
+/*Header style*/
+header{
+    background: #339933;
+    color: #ffffff;
+    text-align: center;
+    margin: -32px;
+    height: 97px;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: blue;
+}
+
+.card-signin .card-title {
+    margin-bottom: 2rem;
+    font-weight: 300;
+    font-size: 1.5rem;
+
+}
+
+.card-signin .card-body {
+    padding: 2rem;
+    box-shadow: 2px 2px 8px 0px #adb5bd;
+}
+.form-signin {
+    width: 100%;
+}
+
+/*Btn Styles*/
+.form-signin .btn {
+    font-size: 80%;
+    border-radius: 5rem;
+    letter-spacing: .1rem;
+    font-weight: bold;
+    padding: 1rem;
+    transition: all 0.2s;
+    background: #008000;;
+}
+
+.form-label-group {
+    position: relative;
+    margin-bottom: 1rem;
+}
+
+.form-label-group input {
+    height: auto;
+    border-radius: 2rem;
+}
+
+.form-label-group>input,
+.form-label-group>label {
+    padding: var(--input-padding-y) var(--input-padding-x);
+}
+
+.form-label-group>label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    width: 100%;
+    margin-bottom: 0;
+    /* Override default `<label>` margin */
+    line-height: 1.5;
+    color: #495057;
+    border: 1px solid transparent;
+    border-radius: .25rem;
+    transition: all .1s ease-in-out;
+}
+button[type="submit"]{
+    border: 0;
+    color: #ffffff;
+    opacity: 0.8;
+    cursor: pointer;
+    margin-bottom: 0;
+    margin:23px auto;
+    display:block;
+    padding: 15px;
+}
+
+button[type="submit"]:hover{
+    opacity: 1;
+
+}
+
+.center{
+    display:block;
+    margin: 10px auto;
+    border: 1px solid #999ea2;
+    border-radius: 50%;
+    margin-top: -52px;
+    display: block;
+    box-shadow: 0px 5px 3px #999ea2;
+}
+
+.btn-block+.btn-block {
+    margin-top: .5rem;
+    background: #007bff;
+}
+.text-center {
+    text-align: center;
+}
+
+@media (min-width: 1200px){
+.container, .container-lg, .container-md, .container-sm, .container-xl {
+    max-width: 963px;
+   }   
+}

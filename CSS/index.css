@@ -1,0 +1,103 @@
+
+a,
+a:focus,
+a:hover {
+  color: #fff;
+}
+
+
+
+/*
+ * Base structure
+ */
+
+html,
+body {
+  height: 100%;
+  background-color: #333;
+}
+
+body {
+  display: -ms-flexbox;
+  display: -webkit-box;
+  display: flex;
+  -ms-flex-pack: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  color: #fff;
+  text-shadow: 0 .05rem .1rem rgba(0, 0, 0, .5);
+  box-shadow: inset 0 0 5rem rgba(0, 0, 0, .5);
+}
+
+
+.nav-masthead .nav-link {
+  padding: .25rem 0;
+  font-weight: 700;
+  color: rgba(255, 255, 255, .5);
+  background-color: transparent;
+  border-bottom: .25rem solid transparent;
+}
+
+.nav-masthead .nav-link:hover,
+.nav-masthead .nav-link:focus {
+  border-bottom-color: rgba(255, 255, 255, .25);
+}
+
+.nav-masthead .nav-link + .nav-link {
+  margin-left: 1rem;
+}
+
+.nav-masthead .active {
+  color: #fff;
+  border-bottom-color: #fff;
+}
+
+.cover .btn-lg {
+  padding: .75rem 1.25rem;
+  font-weight: 700;
+}
+
+.mt-auto{
+  color: #fff;
+}
+
+
+/*Banner styles*/
+.banner{
+  width: 800px;
+  height: 500px;
+  border: 1px solid #0a5275;
+  margin: auto;
+  background-size: 100% 100%;
+  animation: banner 15s infinite;
+  animation-direction: alternate;
+  box-shadow: 3px 3px 14px 0px #6f7274;
+
+}
+h1{
+  text-align: center;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+@keyframes banner{
+  0%, 30%{
+    background-image: url(../img/vital.jpg);
+    opacity: 1;
+  }
+  31%, 34%{
+    opacity: 0.1;
+  }
+  35%, 65%{
+    background-image: url(../img/computer.jfif);
+    opacity: 1;
+  }
+  66%, 69%{
+    opacity: 0.1;
+  }
+  70%, 100%{
+    opacity: 1;
+    background-image: url(../img/mac.jfif);
+  }
+  
+}

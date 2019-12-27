@@ -1,0 +1,78 @@
+label #cancel {
+    z-index: 1111;
+    left: -195px;
+    top: 44px;
+    font-size: 30px;
+    color: #ffffff;
+    padding: 4px 9px;
+    transition: all .5s ease;
+}
+
+.center{
+    display:block;
+    margin: 10px auto;
+    border: 1px solid #999ea2;
+    border-radius: 50%;
+    margin-top: 1px;
+    display: block;
+}
+
+.text-center {
+    text-align: center;
+ }
+button[type="submit"] {
+    background: #339933;
+    border-radius: 2rem;
+}
+
+
+
+.nav-link{
+    color: #ffffff;
+    display: block;
+    padding: 1.5rem 1rem;
+}
+
+.nav-item{
+    float: right;
+    color: #ffffff;
+}
+
+label #btn{
+    left: 12px;
+    top: 21px;
+    font-size: 29px;
+    color: #ffffff;
+    padding: 1px 6px;
+    transition: all .5s;
+}
+.h2, h2 {
+   text-align: center;
+}
+
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+
+.enlarged #wrapper .topbar .topbar-left {
+    width: 70px!important;
+        }
+        .enlarged #wrapper .navbar-custom {
+    margin-left: 70px;
+}
+
+.navbar-custom {
+    background-color: #0a5275;
+    border-radius: 0;
+    margin-bottom: 0;
+    padding: 0 10px 0 0;
+    min-height: 70px;
+}
+
+.topbar {
+    left: 0;
+    position: fixed;
+    right: 0;
+    top: 0;
+    z-index: 999;
+}
